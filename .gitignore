@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Sensitive local configurations
+.env
+
+# Celery local beat schedule database file
+celerybeat-schedule
+
+# Local SQLite databases (if any) or OS specific files
+*.sqlite3
+.DS_Store
